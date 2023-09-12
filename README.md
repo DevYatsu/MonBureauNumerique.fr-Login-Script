@@ -1,17 +1,26 @@
 # MonBureauNumerique.fr Login Script
 
-This simple Python script allows you to connect to the "monbureaunumerique.fr" website portal via the student portal. Users can either store their username and password in a .env file next to the script or enter them when launching the script.
+The following README is written in frensh as the exclusive targets for this script are french people who are likely to use it 
 
-## Prerequisites
+Ce simple script Python permet de se connecter au portail du site "monbureaunumerique.fr" via le portail étudiant. Les utilisateurs peuvent soit stocker leur nom d'utilisateur et leur mot de passe dans un fichier .env à côté du script, soit les saisir au lancement du script.
+
+## Prérequis
 
 - Python (3.x recommended)
-- Selenium library (`pip install selenium`)
+- Librairie Selenium (`pip install selenium`)
 - Python-dotenv library (`pip install python-dotenv`)
-- Chrome WebDriver (or WebDriver for your preferred browser)
+- Navigatueur Chrome 
 
 ## Usage
 
-1. Clone the repository:
+- `git clone https://github.com/DevYatsu/monbureaunumerique-login-script.git`
+- `pip install -r requirements.txt`
+- `python main.py`
 
-   ```shell
-   git clone https://github.com/yourusername/monbureaunumerique-login-script.git
+## Caractéristiques 
+- Connexion automatisée vers le site web "monbureaunumerique.fr".
+- Possibilité de stocker son nom d'utilisateur et mot de passe dans un fichier .env.
+- Supporte Chrome uniquement
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
