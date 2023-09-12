@@ -13,7 +13,7 @@ Ce simple script Python permet de se connecter au portail du site "monbureaunume
 
 ## Usage
 
-- `git clone [https://github.com/DevYatsu/monbureaunumerique-login-script.git](https://github.com/DevYatsu/MonBureauNumerique.fr-Login-Script.git)`
+- `git clone https://github.com/DevYatsu/monbureaunumerique-login-script.git`
 - `pip install -r requirements.txt`
 - `python main.py`
 
